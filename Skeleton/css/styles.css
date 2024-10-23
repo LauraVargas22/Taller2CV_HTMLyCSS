@@ -2,50 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oldenburg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
-
-.page {
-    display: flex;
-    flex-direction: row;
-}
-
-.col1 {
-    width: 33.33%;
-    padding: 10px;
-    background-color: #1C2C63;
-    color: white;
-    line-height: 1.5;
-  }
-dt {
-    font-family: "Fjalla One", sans-serif;
-    font-size: 25px;
-    font-style: lighter;
-    background-color: #7182b9;
-    width: 105px;
-    padding: 5px;
-    text-align: center;
-    border-radius: 8px;
-}
-
-dd {
-    font-family: "Oldenburg", serif;
-    font-size: 20px;
-    font-style: normal;
-}
-
-.col2 {
-    width: 33.33%;
-    padding: 10px;
-    background-color: #e3bcb1;
-    color: black;
-  }
-
-.col3 {
-    width: 33.33%;
-    padding: 10px;
-    background-color: #CBE3B1;
-    color: black;
-  }
-
 h1 {
     font-family: "Dancing Script", cursive;
     font-size: 70px;
@@ -54,16 +10,151 @@ h1 {
     padding: 15px;
     color: white;
     font-weight: 500;
+    border: 2px double #1C2C63;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #1C2C63;
+}
+.col1 {
+    width: 33.33%;
+    padding: 10px;
+    background-color: #1C2C63;
+    color: white;
+    line-height: 1.5;
+  }
+.dt1 {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 22px;
+    background-color: #7182b9;
+    max-width: max-content;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.dd1 {
+    font-family: "Oldenburg", serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.col2 {
+    width: 33.33%;
+    padding: 10px;
+    background-color: #e3bcb1;
+    color: black;
 }
 
 h2 {
     font-family:"Fjalla One", sans-serif;
-    font-size: 30 px;
+    font-size: 30px;
     font-style: normal;
     background-color: #902c1a;
     text-align: center;
     color: white;
-    padding: 8px;
     word-spacing: 2px;
     margin: 5px;
+    padding: 8px;
+}
+
+h3 {
+    font-family:"Fjalla One", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    background-color: #7182b9;
+    text-align: center;
+    color: white;
+    word-spacing: 2px;
+    margin: 5px;
+}
+
+h4 {
+    font-family:"Fjalla One", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    background-color: #1b280c;
+    text-align: center;
+    color: white;
+    word-spacing: 2px;
+    margin: 5px;
+}
+
+.col3 {
+    width: 33.33%;
+    padding: 10px;
+    background-color: #CBE3B1;
+    color: black;
+  }
+
+.dt2 {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 22px;
+    background-color: #902c1a;
+    max-width: max-content;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 8px;
+    color: white;
+}
+
+.dd2 {
+    font-family: "Oldenburg", serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.table2 {
+    border-collapse: collapse;
+    border: 2px solid #1b280c;
+}
+
+.th2 {
+    color: white;
+    background-color: #1b280c;
+    border: 1px solid #1b280c;
+    font-family: "Oldenburg", serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.td2 {
+    color: black;
+    border: 1px solid #1b280c;
+    font-family: "Oldenburg", serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h5 {
+    font-family:"Fjalla One", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    background-color: #1C2C63;
+    text-align: center;
+    color: white;
+    word-spacing: 2px;
+    margin: 5px;
+}
+
+.col4 {
+    width: 33.33%;
+    padding: 10px;
+    background-color: #7182b9;
+    color: white;
+    line-height: 1.5;
+  }
+
+.form {
+    color: white;
+    font-family: "Oldenburg", serif;
+    font-size: 18px;
+    font-style: normal;
+    text-align: justify;
+}
+
+.img {
+    
 }
